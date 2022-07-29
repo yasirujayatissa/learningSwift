@@ -1,0 +1,12 @@
+import Cocoa
+
+var names : [String] = ["yasiru","john","joseph","yasiru"]
+
+print("number of items in the array = \(names.count)")
+
+names.append("kumar")
+let sortedArray = names.sorted()
+
+print()
+print("The sorted \"names\" array \(sortedArray)")
+
