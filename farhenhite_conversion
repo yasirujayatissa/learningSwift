@@ -1,0 +1,7 @@
+import Cocoa
+
+//A program that can onvert Celsius vlaues into Fahrenheit values
+
+let celcius = 37.2
+let fahrenheit = (celcius * 9)/5 + 32
+print("The \"Celsius\" value \(celcius)°C in \"Fahrenheit\" is \(fahrenheit)°F ")
