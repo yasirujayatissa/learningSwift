@@ -1,0 +1,101 @@
+import Cocoa
+
+let scienceScore = 80
+let mathScore = 35
+
+if scienceScore > 40 {
+    print("PASS!")
+}
+
+if mathScore < 40 {
+    print("FAILED!")
+}
+
+
+let ex1 = "Yasiru Jayatissa"
+let ex2 = "Ranumi Hettiarachchi"
+
+if (ex1 > ex2){
+    print("huhuu \(ex2) is better than \(ex1)")
+}
+
+if (ex1 < ex2){
+    print("huhuu \(ex1) is better than \(ex2)")
+}
+
+var numbers = [Int]()
+
+numbers.append(0)
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+
+if numbers.count >= 4 {
+    numbers.removeFirst()
+}
+
+print(numbers)
+
+var country = "Sri Lanka"
+
+if country.isEmpty == true{
+    country = "Anonymous"
+}
+
+print("welcome, \(country)")
+
+
+let age = 16
+
+if age >= 18{
+    print("You are eligible to vote")
+}else{
+    print("Sorry, You are not eligible to vote")
+}
+
+//elseIf
+
+let userAge = 14
+let parentalConsent = true
+
+if userAge > 18 || parentalConsent == true {
+    print("You are allowed to buy the game")
+}else{
+    print("You are not allowed to buy the game!")
+}
+
+//enums
+
+enum TransportOption{
+    case Airplane,Ship,Car,Sooter
+}
+
+let transportationMethod = TransportOption.Airplane
+
+if transportationMethod == .Airplane{
+    print("let's fly")
+}else if transportationMethod == .Ship{
+    print("let's sail")
+}else if transportationMethod == .Car{
+    print("let's drive")
+}else{
+    print("Scoot Scoot")
+}
+
+//switch case
+
+let country = "India"
+
+switch country{
+case "Sri Lanka":
+    print("You are Sri Lankan")
+case "India":
+    print("You are Indian")
+case "Germany":
+    print("You are German")
+default:
+    print("System cannot Recognize you")
+}
+
+print("DONE")
+
