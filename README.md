@@ -1,6 +1,6 @@
 # learningSwiftUI
 
-A table view controller made using swiftUI!
+A table view controller about iOS developers in Circles.Life made using swiftUI!
 
 <img width="416" alt="Screenshot 2022-08-04 at 17 48 20" src="https://user-images.githubusercontent.com/110222524/182856465-3b23e010-3aa6-4b89-864f-28314124a16e.png">
 
