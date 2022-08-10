@@ -1,0 +1,24 @@
+import Cocoa
+
+func checkRoot(number : Int) throws-> String{
+    if number < 1 || number > 10000 {
+        return "out of bounds"
+    }
+    else{
+        for count in 1...100{
+            if count * count == number{
+                print("Square root of \(number) = \(count)")
+                return "DONE"
+            }
+        }
+        return "No Root"
+    }
+}
+
+let num = Int.random(in: 1...10000)
+do{
+    let result = try checkRoot(number: num)
+    print(result)
+    }
+    catch{
+    }
