@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wbI-vk-qK2">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Team iOS🍎-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestTeamIos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iG3-IM-Kea">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="NNd-vE-UxQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2780"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="afi-U3-rW6">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mahesh" translatesAutoresizingMaskIntoConstraints="NO" id="QUL-bt-czj">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="rl5-9M-kHJ">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mahesh De Silva" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3kE-CQ-EE3">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mahesh.desilva@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTv-1a-D5W">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="YhT-je-do3"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YXH-PU-JeZ">
+                                                <rect key="frame" x="0.0" y="200" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="infaz" translatesAutoresizingMaskIntoConstraints="NO" id="LpC-LS-ZD6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="tho-S8-WnE">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Infaz Ariff" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PU-H2-e7p">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ariff.infaz@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2GL-RI-lkZ">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="GbG-8b-TVH"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zWw-9D-HnQ">
+                                                <rect key="frame" x="0.0" y="400" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vijay" translatesAutoresizingMaskIntoConstraints="NO" id="IEC-LZ-1bn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="9s1-bm-KL6">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vijay Godse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXW-rt-dnY">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vijay.godse@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tF-mR-28Q">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="prX-42-gim"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DJh-2f-oiI">
+                                                <rect key="frame" x="0.0" y="600" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pranav" translatesAutoresizingMaskIntoConstraints="NO" id="s2d-f2-QKu">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="bDh-Ls-QjA">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pranav Sah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yw-br-qxs">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pranav.sah@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfG-BZ-4sH">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="8Od-Xt-QnR"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kge-U2-kCw">
+                                                <rect key="frame" x="0.0" y="800" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="naga" translatesAutoresizingMaskIntoConstraints="NO" id="iGc-Sq-bla">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="Tu4-60-XoG">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nagamanikantha Narne" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zb6-ad-U3B">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nagamanikantha.narne@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EE9-zG-Zwj">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="mZG-DR-xBy"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="veX-lO-CYw">
+                                                <rect key="frame" x="0.0" y="1000" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="irfan" translatesAutoresizingMaskIntoConstraints="NO" id="mU4-Hh-AaW">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="3Ig-Hy-5xh">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mohomad Irfan Awan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyK-4i-b5f">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="irfan.awan@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfz-d2-UkX">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="deo-Pe-2Ko"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zNE-it-gAz">
+                                                <rect key="frame" x="0.0" y="1200" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="anu" translatesAutoresizingMaskIntoConstraints="NO" id="11f-fD-Fpj">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="NVi-SU-LSh">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anu Mittal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tl2-D4-MXv">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="anu@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUz-in-H8Z">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="y8c-JJ-RMA"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ELc-9Y-PEw">
+                                                <rect key="frame" x="0.0" y="1400" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pubudu" translatesAutoresizingMaskIntoConstraints="NO" id="DEt-Wc-Oq1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="Dar-9D-RcJ">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pubudu De Silva" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qB5-KF-y4O">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pubudu.mihiranga@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcO-ul-dOd">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="FuM-JF-6LL"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QWM-wP-jGJ">
+                                                <rect key="frame" x="0.0" y="1600" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pratik" translatesAutoresizingMaskIntoConstraints="NO" id="Lqs-9O-6Tp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="YFM-GG-r3D">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pratik Thakare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chZ-Fv-TUD">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pratik.thakare@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOG-ZE-WY6">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="pBe-uu-bqr"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LP4-C1-nVF">
+                                                <rect key="frame" x="0.0" y="1800" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="krishan" translatesAutoresizingMaskIntoConstraints="NO" id="Lnr-uT-sa6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="hp7-Ex-Utd">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mahesh De Silva" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xan-5W-Wvk">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mahesh.desilva@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mmc-Ar-PJ4">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="VPw-D3-sYo"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1SI-UF-pOL">
+                                                <rect key="frame" x="0.0" y="2000" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ray" translatesAutoresizingMaskIntoConstraints="NO" id="bkL-jI-T7A">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="o0g-s4-yWf">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ray Liem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsr-5a-Klf">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="raymond.liem@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc7-o4-C10">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="qmG-Zv-L4f"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qrl-P1-lw1">
+                                                <rect key="frame" x="0.0" y="2200" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chandan" translatesAutoresizingMaskIntoConstraints="NO" id="0lp-P4-E5R">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="jvK-kB-2JX">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chandan Singh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBc-UI-cqL">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="chandan.singh@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8BG-Yq-Ai1">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="KR3-VZ-8ae"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IyF-uv-r9d">
+                                                <rect key="frame" x="0.0" y="2400" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visal" translatesAutoresizingMaskIntoConstraints="NO" id="kNW-0p-5vv">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="yuZ-kb-HLl">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visal Rajapake" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2X-OU-HSC">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="visal.rajapakse@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUs-Zc-w54">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="djT-Tb-fgv"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zi3-XC-Vkj">
+                                                <rect key="frame" x="0.0" y="2600" width="414" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yasiru" translatesAutoresizingMaskIntoConstraints="NO" id="dT1-M4-eYY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="180"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-120" translatesAutoresizingMaskIntoConstraints="NO" id="ad2-7Z-oNb">
+                                                        <rect key="frame" x="212" y="0.0" width="202" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yasiru Jayatissa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vc6-hy-yN2">
+                                                                <rect key="frame" x="0.0" y="0.0" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dyasiru.jayatissa@circles.asia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qG-9A-JqQ">
+                                                                <rect key="frame" x="0.0" y="30" width="202" height="150"/>
+                                                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="11"/>
+                                                                <color key="textColor" systemColor="systemBlueColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="cJ5-dh-svl"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="NNd-vE-UxQ" firstAttribute="top" secondItem="iG3-IM-Kea" secondAttribute="top" id="0bn-xE-3Sm"/>
+                                    <constraint firstAttribute="bottom" secondItem="NNd-vE-UxQ" secondAttribute="bottom" id="9Rb-Rw-jaE"/>
+                                    <constraint firstAttribute="trailing" secondItem="NNd-vE-UxQ" secondAttribute="trailing" id="Duh-Jz-zyD"/>
+                                    <constraint firstAttribute="bottom" secondItem="NNd-vE-UxQ" secondAttribute="bottom" id="XJT-cE-GMd"/>
+                                    <constraint firstItem="NNd-vE-UxQ" firstAttribute="leading" secondItem="iG3-IM-Kea" secondAttribute="leading" id="Zt1-xu-3Uj"/>
+                                    <constraint firstItem="NNd-vE-UxQ" firstAttribute="width" secondItem="iG3-IM-Kea" secondAttribute="width" id="a5R-UL-Osr"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iG3-IM-Kea" secondAttribute="trailing" id="1Bd-PI-Akc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iG3-IM-Kea" secondAttribute="bottom" id="MFv-pq-ThE"/>
+                            <constraint firstItem="iG3-IM-Kea" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MLd-Fl-o3O"/>
+                            <constraint firstItem="iG3-IM-Kea" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nCH-zu-NUq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Team iOS🍎" id="EfP-jy-7ou"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.92753623188412" y="83.705357142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Uwz-F4-wgW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wbI-vk-qK2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4hh-3l-eHX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="GIU-Ec-xpt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tKv-Lv-jJE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="anu" width="592" height="502"/>
+        <image name="chandan" width="640" height="858"/>
+        <image name="infaz" width="510" height="506"/>
+        <image name="irfan" width="420" height="570"/>
+        <image name="krishan" width="250" height="253"/>
+        <image name="mahesh" width="1121" height="915"/>
+        <image name="naga" width="254" height="242"/>
+        <image name="pranav" width="2304" height="3402"/>
+        <image name="pratik" width="960" height="960"/>
+        <image name="pubudu" width="516" height="585"/>
+        <image name="ray" width="250" height="254"/>
+        <image name="vijay" width="2219" height="2648"/>
+        <image name="visal" width="512" height="510"/>
+        <image name="yasiru" width="504" height="508"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
